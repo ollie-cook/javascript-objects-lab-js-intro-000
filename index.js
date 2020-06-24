@@ -8,5 +8,5 @@ var destructivelyUpdateObjectWithKeyAndValue = (object,key,value) => {
 
 var deleteFromObjectByKey = (object,key) => {
  var object2 = Object.assign({},object)
- delete object2[key];
+ delete object2.key;
 }
