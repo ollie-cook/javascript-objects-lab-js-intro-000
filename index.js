@@ -13,6 +13,6 @@ var deleteFromObjectByKey = (object,key) => {
 }
 
 var destructivelyDeleteFromObjectByKey = (object,key) =>{
-  delete object[key] 
+  delete object[key]
   return object;
 }
